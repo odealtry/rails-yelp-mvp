@@ -3,3 +3,5 @@
 <p><strong><%=  review.rating %></strong></p>
 <p><%=  review.content %></p>
 <% end %>
+
+<%= link_to 'Add a Review', new_restaurant_review_path(@restaurant.id) %>
